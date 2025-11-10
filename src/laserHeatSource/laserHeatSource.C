@@ -155,6 +155,7 @@ void laserHeatSource::createInitialRays
 
         forAll(CI, celli)
         { 
+
             
             const scalar x_coord = CI[celli].x();
             // const scalar y_coord = CI[celli].y();
